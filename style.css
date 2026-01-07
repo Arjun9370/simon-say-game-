@@ -1,0 +1,33 @@
+h1,h2,div{
+    text-align: center;
+
+}
+.container{
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    
+}
+.st{
+    width: 130px;
+    height: 130px;
+    border: 3px solid black;
+    display:flex;
+    margin: 3px;
+    display: inline-block;
+    border-radius: 10%  ;
+    
+    
+}
+.st:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px black;
+    transform: scale(1);
+    transition: all 0.2s;
+}
+.flash{
+    background-color: white !important;
+}
+.body{
+    background-color: red;
+}   
